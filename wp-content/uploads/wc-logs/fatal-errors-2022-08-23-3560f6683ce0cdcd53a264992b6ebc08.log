@@ -66,3 +66,9 @@ Stack trace:
 #9 {main}
   thrown in E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise\class-ms-gateway-omise.php on line 11
 
+2022-08-23T13:18:08+00:00 CRITICAL Cannot declare class OmiseObject, because the name is already in use in E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise-php\lib\omise\res\obj\OmiseObject.php on line 3
+
+2022-08-23T13:18:22+00:00 CRITICAL Cannot declare class OmiseObject, because the name is already in use in E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise-php\lib\omise\res\obj\OmiseObject.php on line 3
+
+2022-08-23T13:18:22+00:00 CRITICAL Cannot declare class OmiseObject, because the name is already in use in E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise-php\lib\omise\res\obj\OmiseObject.php on line 3
+
