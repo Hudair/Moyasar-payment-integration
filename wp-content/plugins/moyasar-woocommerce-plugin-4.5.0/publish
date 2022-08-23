@@ -1,0 +1,15 @@
+#!/bin/bash
+
+shopt -s extglob
+
+rm -rf ./dist/moyasar-payments
+rm -rf ./dist/moyasar-payments.zip
+
+mkdir -p ./dist/moyasar-payments
+
+cp -r ./!(dist|.git|.gitignore|playg.php|publish|*.md|images) dist/moyasar-payments/
+
+cd dist/
+zip -r moyasar-payments.zip moyasar-payments
+
+rm -rf ./moyasar-payments

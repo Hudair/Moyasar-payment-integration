@@ -1,0 +1,244 @@
+# Copyright (C) 2021 Moyasar Development Team
+# This file is distributed under the same license as the Moyasar Payment Gateway plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Moyasar Payment Gateway 3.1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/moyasar-woocommerce-plugin\n"
+"Last-Translator: Ali Alhoshaiyan <a.hoshaiyan@moyasar.com>\n"
+"Language-Team: ar <developers@moyasar.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-02-03T11:52:44+00:00\n"
+"PO-Revision-Date: 2021-02-03 14:53+03\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: moyasar-payments-text\n"
+
+#. Plugin Name of the plugin
+msgid "Moyasar Payment Gateway"
+msgstr "ميسر لخدمات الدفع"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.moyasar.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds credit card, Apple Pay, and STC Pay payment capabilities to Woocommerce."
+msgstr "تسمح للمستخدم الدفع بأحد الطرق التالية : بطاقة إئتمانية ، Apple Pay ، أو stc pay"
+
+#. Author of the plugin
+msgid "Moyasar Development Team"
+msgstr "فريق ميسر للتطوير"
+
+#: controllers/class-wc-controller-moyasar-payment.php:127
+msgid "Payment failed"
+msgstr "عملية دفع غير ناجحة"
+
+#: gateways/class-wc-moyasar-payment-form.php:32
+msgid "Moyasar Payments"
+msgstr "مدفوعات ميسر"
+
+#: gateways/class-wc-moyasar-payment-form.php:39
+msgid "Online Payments"
+msgstr "مدفوعات الكترونية"
+
+#: gateways/class-wc-moyasar-payment-form.php:33
+msgid "Moyasar Gateway Settings"
+msgstr "إعدادات بوابة الدفع"
+
+#: gateways/class-wc-moyasar-payment-form.php:40
+msgid "Pay with your credit card, Apple Pay, or stc pay."
+msgstr "ادفع باستخدام بطاقة الإئتمان ، Apple Pay أو stc pay"
+
+#: gateways/class-wc-moyasar-payment-form.php:100
+msgid "Moyasar Test API keys are missing."
+msgstr "لم يتم إعداد مفاتيح خدمة الدفع التجريبية في إعدادات المتجر"
+
+#: gateways/class-wc-moyasar-payment-form.php:105
+msgid "Moyasar Live API keys are missing."
+msgstr "لم يتم إعداد مفاتيح خدمة الدفع في إعدادات المتجر"
+
+#: gateways/class-wc-moyasar-payment-form.php:110
+msgid "Moyasar: At least one payment method is required."
+msgstr "لتعمل خدمة الدفع بالشكل الصحيح ، يجب تفعيل طريقة دفع واحدة على الأقل"
+
+#: gateways/class-wc-moyasar-payment-form.php:115
+msgid "Moyasar: At least one network is required."
+msgstr "لتعمل خدمة الدفع بالشكل الصحيح ، يجب اخيار شبكة مدفوعات واحدة على الأقل"
+
+#: gateways/class-wc-moyasar-payment-form.php:212
+msgid "General"
+msgstr "عام"
+
+#: gateways/class-wc-moyasar-payment-form.php:213
+msgid "API Keys"
+msgstr "مفاتيح الخدمة"
+
+#: gateways/class-wc-moyasar-payment-form.php:214
+msgid "Payment Methods"
+msgstr "طرق الدفع"
+
+#: gateways/class-wc-moyasar-payment-form.php:215
+msgid "Order Settings"
+msgstr "إعدادات الطلبات"
+
+#: gateways/class-wc-moyasar-payment-form.php:216
+msgid "Apple Pay Settings"
+msgstr "إعدادات Apple Pay"
+
+#: gateways/class-wc-moyasar-payment-form.php:217
+msgid "Apple Pay Activation"
+msgstr "تفعيل Apple Pay"
+
+#: gateways/class-wc-moyasar-payment-form.php:427
+msgid "Invalid nonce"
+msgstr "رمز التحقق غير صحيح ، نرجوا تحديث الصفحة"
+
+#: gateways/class-wc-moyasar-payment-form.php:440
+msgid "Awaiting payment to complete"
+msgstr "بانتظار اتمام عملية الدفع"
+
+#: gateways/class-wc-moyasar-payment-form.php:555
+msgid "Order has been canceled due to payment mismatch"
+msgstr "تم إلغاء الطلب لعدم تطابق بيانات عملية الدفع"
+
+#: moyasar-form-init.php:79
+msgid "Gateway Settings"
+msgstr "الإعدادات"
+
+#: utils/admin-settings.php:6
+msgid "Enable/Disable"
+msgstr "تفعيل / تعطيل"
+
+#: utils/admin-settings.php:8
+msgid "Enable Moyasar Payment Form"
+msgstr "تفعيل بوابة الدفع"
+
+#: utils/admin-settings.php:12
+msgid "Enable Test Mode"
+msgstr "تفعيل وضع التجربة"
+
+#: utils/admin-settings.php:14
+msgid "In test mode, test API keys will be used instead of live. Also form will work in websites with no HTTPS. This allows you to quickly switch without changing your other settings."
+msgstr "هذا الوضع يسمح لمدير المتجر استخدام مفاتيح التجربة المقدمة من ميسر بدلًا من المفاتيح الفعلية للخدمة"
+
+#: utils/admin-settings.php:20
+msgid "Enable Credit Card"
+msgstr "تفعيل الدفع ببطاقة الإئتمان"
+
+#: utils/admin-settings.php:22
+msgid "This option allows you to enable Credit Card method."
+msgstr "الدفع باستخدام بطاقة الإئتمان"
+
+#: utils/admin-settings.php:26
+msgid "Enable Apple Pay"
+msgstr "تفعيل Apple Pay"
+
+#: utils/admin-settings.php:28
+msgid "This option allows you to enable Apple Pay method."
+msgstr "الدفع باستخدام Apple Pay"
+
+#: utils/admin-settings.php:32
+msgid "Enable stc pay"
+msgstr "تفعيل stc pay"
+
+#: utils/admin-settings.php:34
+msgid "This option allows you to enable stc pay method."
+msgstr "الدفع باستخدام stc pay"
+
+#: utils/admin-settings.php:38
+msgid "Supported Networks"
+msgstr "الشبكات المدعومة"
+
+#: utils/admin-settings.php:40
+msgid "Supported networks by Credit Card method and Apple Pay."
+msgstr "هذا الخيار يسمح باختيار الشبكات التي سيتم قبولها باستخدام Apple Pay و البطاقة الإئتمانية"
+
+#: utils/admin-settings.php:42
+msgid "Mada"
+msgstr "مدى"
+
+#: utils/admin-settings.php:43
+msgid "VISA"
+msgstr "فيزا"
+
+#: utils/admin-settings.php:44
+msgid "Mastercard"
+msgstr "ماستر كارد"
+
+#: utils/admin-settings.php:45
+msgid "American Express"
+msgstr "أمريكان إكسبرس"
+
+#: utils/admin-settings.php:56
+msgid "Live Secret Key"
+msgstr ""
+
+#: utils/admin-settings.php:58
+msgid "This key is used by the server to verify payments upon clients return."
+msgstr ""
+
+#: utils/admin-settings.php:61
+msgid "Live Publishable Key"
+msgstr ""
+
+#: utils/admin-settings.php:63
+msgid "This key is used by client's browser to create a new payment."
+msgstr ""
+
+#: utils/admin-settings.php:66
+msgid "Test Secret Key"
+msgstr ""
+
+#: utils/admin-settings.php:68
+msgid "This key is used by the server to verify payments upon clients return. Used in Test Mode"
+msgstr ""
+
+#: utils/admin-settings.php:71
+msgid "Test Publishable Key"
+msgstr ""
+
+#: utils/admin-settings.php:73
+msgid "This key is used by client's browser to create a new payment. Used in Test Mode"
+msgstr ""
+
+#: utils/admin-settings.php:78
+msgid "New Order Status"
+msgstr "حالة الطلبات الجديدة"
+
+#: utils/admin-settings.php:82
+msgid "Processing"
+msgstr ""
+
+#: utils/admin-settings.php:83
+msgid "On Hold"
+msgstr ""
+
+#: utils/admin-settings.php:89
+msgid "Merchant Identifier"
+msgstr ""
+
+#: utils/admin-settings.php:93
+msgid "Merchant Validation Certificate"
+msgstr ""
+
+#: utils/admin-settings.php:97
+msgid "Merchant Validation Private Key"
+msgstr ""
+
+#: utils/admin-settings.php:101
+msgid "Passphrase for Private Key"
+msgstr ""
+
+#: utils/admin-settings.php:107
+msgid "Enable Apple Pay Activation"
+msgstr "وضع تفعيل Apple Pay"
+
+#: utils/admin-settings.php:109
+msgid "Enable a rewrite rule that will allow serving .well-known/apple-developer-merchantid-domain-association.txt"
+msgstr ""
+
+#: utils/admin-settings.php:113
+msgid "File Content"
+msgstr "محتويات الملف"
