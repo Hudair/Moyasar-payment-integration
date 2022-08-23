@@ -1,0 +1,99 @@
+.omise-billpayment-tesco-print-details,
+.omise-billpayment-tesco-print-order-overview {
+    display: none;
+}
+
+@media print {
+    body * {
+        display: none;
+    }
+
+    body .omise-billpayment-tesco-print-details {
+        display: block;
+        position: static;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .omise-billpayment-tesco-print-details * {
+        display: block;
+        width: auto;
+        margin: auto;
+    }
+
+    .omise-billpayment-tesco-print-button {
+        display: none;
+    }
+
+    /**
+     * Reset elements for printing screen.
+     */
+    .omise-billpayment-tesco-print-details h1,
+    .omise-billpayment-tesco-print-details h2,
+    .omise-billpayment-tesco-print-details h3,
+    .omise-billpayment-tesco-print-details p {
+        width: 100%;
+    }
+
+    .omise-billpayment-tesco-print-details strong,
+    .omise-billpayment-tesco-print-details small,
+    .omise-billpayment-tesco-print-details span,
+    .omise-billpayment-tesco-print-details del,
+    .omise-billpayment-tesco-print-details ins {
+        display: inline;
+    }
+    /** END reset elements. **/
+
+    .omise-billpayment-tesco-print-order-overview {
+        margin: 6em 0 2em 0;
+    }
+
+    .omise-billpayment-tesco-print-order-overview > div {
+        float: left;
+        width: 50%;
+        padding: 1em 0;
+    }
+
+    .omise-billpayment-tesco-print-order-overview strong {
+        font-size: 115%;
+    }
+
+    .omise-billpayment-tesco-print-order-overview::after {
+        visibility: hidden;
+        display: block;
+        height: 0;
+        content: ".";
+        clear: both;
+    }
+
+    .omise-billpayment-tesco-barcode-wrapper {
+        margin: 1em 0;
+    }
+
+    .omise-billpayment-tesco-barcode {
+        display: inline-block;
+    }
+
+    .omise-billpayment-tesco-footnote {
+        width: 90%;
+        margin: 4em auto;
+        text-align: right;
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .omise-billpayment-tesco-barcode-wrapper {
+        position: relative;
+        height: 700px;
+    }
+
+    .omise-billpayment-tesco-barcode {
+        transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+        position: absolute;
+        width: 650px;
+        margin-top: 250px;
+        z-index: -1;
+    }
+}

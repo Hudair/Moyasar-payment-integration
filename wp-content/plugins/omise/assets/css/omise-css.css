@@ -1,0 +1,581 @@
+.form-row.omise-label-inline label,
+.omise-label-inline label,
+label.omise-label-inline {
+	display: inline-block;
+}
+
+.omise-remember-card input,
+.omise-remember-card label {
+	display: inline-block;
+}
+
+.omise-customer-card-list {
+	padding-bottom: .75em;
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0 1px 1px #fff;
+}
+
+#label-new_card_info h3 {
+	margin-top: .75em;
+	display: inline-block;
+}
+
+fieldset.card-exists {
+	display: none;
+}
+
+#new_card_info:checked ~ fieldset.card-exists {
+	display: block;
+}
+
+/**
+ * 1). Specific style
+ * (usually designed specifically for only one purpose).
+ */
+#payment .payment_methods li .payment_box fieldset#omise-form-installment,
+#payment .payment_methods li .payment_box fieldset#omise-form-internetbanking {
+	padding: 0;
+}
+
+.omise-banks-list .installment-term-select-box {
+	width: 8rem;
+	border: 1px solid #d4d4d4;
+	font-size: 80%;
+}
+
+#payment .payment_methods li .payment_box fieldset#omise-form-installment .omise-buttom-note {
+	margin-top: 4em;
+}
+
+#payment .payment_methods li .payment_box fieldset#omise-form-installment .omise-installment-interest-rate {
+	color: #aaa;
+	font-size: 80%;
+	line-height: 1;
+}
+
+/**
+ * Omise Bill Payment Tesco
+ * CSS for the 'Thank You' (order-received) page.
+ */
+.omise-konbini-details,
+.omise-billpayment-tesco-details {
+	margin-bottom: 4em;
+	text-align: center;
+}
+.omise-billpayment-tesco-barcode {
+	display: inline-block;
+}
+.omise-billpayment-tesco-print-button {
+	margin-top: 2em;
+}
+.omise-konbini-footnote,
+.omise-billpayment-tesco-footnote {
+	margin-top: 4em;
+	padding: 1em;
+	font-size: 85%;
+	text-align: left;
+	background-color: #f8f8f8;
+}
+.omise-billpayment-tesco-footnote p {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * Omise PayNow
+ */
+.omise-paynow-details {
+	margin-bottom: 4em;
+	text-align: center;
+}
+.omise-paynow-details img {
+	margin: auto;
+}
+.omise-paynow-logo {
+	background: url('../images/paynow.png');
+	background-size: cover;
+	width: 200px;
+	height: 51px;
+	margin: auto;
+}
+
+.omise-paynow-payment-status {
+	margin-top: 15px;
+}
+
+.omise-paynow-payment-status #timer {
+	font-weight: 700;
+}
+
+.omise-paynow-payment-status .green-check {
+	background: url('../images/green-check.svg') no-repeat;
+	height: 150px;
+	width: 116px;
+	margin: auto;
+}
+
+/**
+* Omise Promptpay
+*/
+
+.omise-qr-image > svg {
+	max-width: 100%;
+	height: auto;
+}
+
+@media all and (min-width: 768px) {
+	.omise-qr-image > svg {
+		max-width: 300px !important;
+	}
+}
+
+.omise-download-promptpay-qr {
+	display: inline-block;
+	color: white !important;
+	padding: 6px 12px;
+	font-weight: bold;
+	background-color: #1A53F0;
+	border-radius: 4px;
+	margin-bottom: 0.75rem;
+	cursor: pointer;
+}
+
+.omise-download-promptpay-qr:hover {
+	background-color: #0c3abb;
+}
+
+
+/**
+ * 2). Components
+ * (stylesheets that are designed generally and may be commonly used as a component).
+ */
+/**
+ * 2.1). Typography
+ */
+.omise-secondary-text {
+	color: #aaa;
+	font-size: 80%;
+}
+
+.omise-secondary-text.googlepay-selected {
+	color: #000;
+	font-size: 125%;
+}
+
+/**
+ * 2.2). Components
+ */
+.omise-buttom-note {
+	margin-top: 2em;
+	color: #aaa;
+	font-size: 80%;
+}
+
+.omise-additional-payment-details-box {
+	margin-bottom: 4em;
+	text-align: center;
+}
+
+/**
+ * 2.3). Form, bank list components
+ */
+ul.omise-banks-list {
+	margin: 0;
+}
+
+.omise-banks-list input[type="radio"] + label::before {
+	position: relative;
+}
+
+.omise-banks-list .item {
+	position: relative;
+	padding: 14px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.omise-banks-list .item.mobile-banking {
+	padding-bottom: 0;
+}
+
+.omise-banks-list .item.fpx:first-child {
+	padding-top: 20px;
+}
+
+.omise-banks-list .item:first-child {
+	padding-top: 0;
+}
+
+.omise-banks-list .item > input {
+	position: absolute;
+	top: 28px;
+	left: 8px;
+}
+
+.omise-banks-list .item:first-child > input {
+	top: 14px;
+}
+
+.omise-banks-list .item > label {
+	display: inline-block;
+	padding: 0 0 0 32px;
+	cursor: pointer;
+	position: relative;
+}
+
+.omise-banks-list .bank-label {
+	display: inline-block;
+	width: 180px;
+	vertical-align: top;
+}
+
+.omise-banks-list .fpx-bank-label {
+	display: inline-block;
+	width: 180px;
+	vertical-align: middle;
+}
+
+.omise-banks-list .mobile-banking-label {
+	display: inline-block;
+	width: 180px;
+	vertical-align: middle;
+}
+
+.omise-banks-list .bank-logo {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-top: 4px;
+	border-radius: 2px;
+	border: 4px solid #fff;
+}
+
+.omise-banks-list .mobile-banking-logo {
+	display: inline-block;
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 6px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.omise-banks-list .fpx-bank-logo {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+/** Media Quries **/
+@media all and (min-width: 375px) {
+	ul.omise-banks-list {
+		margin: 0 0 0 1.75em;
+	}
+
+	.omise-banks-list .item > input {
+		left: 3.5px;
+	}
+
+	.omise-banks-list .bank-label {
+		padding-left: 8px;
+	}
+
+	.omise-banks-list .mobile-banking-label {
+		padding-left: 8px;
+		padding-bottom: 5px;
+	}
+}
+
+@media all and (min-width: 768px) {
+	ul.omise-banks-list {
+		margin: 0;
+	}
+
+	.omise-banks-list .bank-label {
+		padding-left: 0px;
+		width: auto;
+	}
+
+	.omise-banks-list .mobile-banking-label {
+		padding-left: 0px;
+		width: auto;
+	}
+}
+
+@media all and (min-width: 1024px) {
+	ul.omise-banks-list {
+		margin: 0 0 0 1.75em;
+	}
+
+	.omise-banks-list .bank-label {
+		padding-left: 8px;
+		width: 148px;
+	}
+
+	.omise-banks-list .mobile-banking-label {
+		padding-left: 8px;
+	}
+}
+
+@media all and (min-width: 1280px) {
+	.omise-banks-list .bank-label {
+		width: 180px;
+	}
+
+	.omise-banks-list .mobile-banking-label {
+		width: 180px;
+	}
+}
+
+/**
+ * 2.4). Bank logos
+ */
+/** BAY **/
+.bank-logo.bay {
+	background: url('../images/bay.svg') #fec43b;
+	border-color: #fec43b;
+}
+
+/** BBL **/
+.bank-logo.bbl {
+	background: url('../images/bbl.svg') #1e4598;
+	border-color: #1e4598;
+}
+
+/** Citi **/
+.bank-logo.citi {
+	background: url('../images/citi.svg') #0b689d;
+	border-color: #0b689d;
+}
+
+/** First Choice **/
+.bank-logo.first_choice {
+	background: url('../images/firstchoice.svg') #007bc4;
+	border-color: #007bc4;
+}
+
+/** KBANK **/
+.bank-logo.kbank {
+	background: url('../images/kbank.svg') #fbfbfb;
+	border-color: #fbfbfb;
+}
+
+/** KTB **/
+.bank-logo.ktb {
+	background: url('../images/ktb.svg') #1ba5e1;
+	border-color: #1ba5e1;
+}
+
+/** KTC **/
+.bank-logo.ktc {
+	background: url('../images/ktc.svg') #fbfbfb;
+	border-color: #fbfbfb;
+}
+
+/** SCB **/
+.bank-logo.scb {
+	background: url('../images/scb.svg') #4e2e7f;
+	border-color: #4e2e7f;
+}
+
+/** TTB **/
+.bank-logo.ttb {
+	background: url('../images/ttb.svg') #fbfbfb;
+	border-color: #fbfbfb;
+}
+
+/** UOB **/
+.bank-logo.uob {
+	background: url('../images/uob.svg') #05377c;
+	border-color: #05377c;
+}
+
+/** MAYBANK **/
+.bank-logo.ezypay {
+	background: url('../images/maybank.svg') #ffcf00;
+	border-color: #ffcf00;
+}
+
+/**
+ * mobile banking logo
+ */
+
+/** KPLUS **/
+.mobile-banking-logo.kplus {
+	background: url('../images/kplus.png');
+	background-size: cover;
+}
+
+/** SCB **/
+.mobile-banking-logo.scb {
+	background: url('../images/scb-easy.png');
+	background-size: cover;
+}
+
+/** BAY **/
+.mobile-banking-logo.bay {
+	background: url('../images/kma.png');
+	background-size: cover;
+}
+
+/** BBL **/
+.mobile-banking-logo.bbl {
+	background: url('../images/bbl-m.png');
+	background-size: cover;
+}
+
+
+/**
+fpx select & bank logos
+**/
+.fpx-select-bank {
+    position: relative;
+}
+
+.fpx-select-bank:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    content: "";
+    pointer-events: none;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+}
+
+
+.fpx-select-bank > select {
+    padding-left: 0;
+    padding: 10px 50px;
+	width: 100%;
+    background-image:url(../images/fpx-unknown.svg);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 10px;
+    background-size: 25px;
+    cursor: pointer;
+}
+
+.fpx-select-bank > select.default {
+    background: none;
+	padding-left: 10px;
+}
+
+.fpx-select-bank > select.affin, select.affin_test {
+    background-image:url(../images/fpx-affin.svg);
+}
+
+.fpx-select-bank > select.agro {
+    background-image:url(../images/fpx-agronet.svg);
+}
+
+.fpx-select-bank > select.alliance {
+    background-image:url(../images/fpx-alliance.svg);
+}
+
+.fpx-select-bank > select.ambank {
+    background-image:url(../images/fpx-ambank.svg);
+}
+
+.fpx-select-bank > select.bsn {
+    background-image:url(../images/fpx-bsn.svg);
+}
+
+.fpx-select-bank > select.cimb {
+    background-image:url(../images/fpx-cimb.svg);
+}
+
+.fpx-select-bank > select.citi {
+    background-image:url(../images/fpx-citi.svg);
+}
+
+.fpx-select-bank > select.bocm {
+    background-image:url(../images/fpx-bocm.svg);
+}
+
+.fpx-select-bank > select.hongleong {
+    background-image:url(../images/fpx-hongleong.svg);
+}
+
+.fpx-select-bank > select.hsbc {
+    background-image:url(../images/fpx-hsbc.svg);
+}
+
+.fpx-select-bank > select.islam {
+    background-image:url(../images/fpx-islam.svg);
+}
+
+.fpx-select-bank > select.kfh {
+    background-image:url(../images/fpx-kfh.svg);
+}
+
+.fpx-select-bank > select.maybank2e, select.maybank2u{
+    background-image:url(../images/fpx-maybank.svg);
+}
+
+.fpx-select-bank > select.muamalat {
+    background-image:url(../images/fpx-muamalat.svg);
+}
+
+.fpx-select-bank > select.ocbc {
+    background-image:url(../images/fpx-ocbc.svg);
+}
+
+.fpx-select-bank > select.public {
+    background-image:url(../images/fpx-publicbank.svg);
+}
+
+.fpx-select-bank > select.rakyat {
+    background-image:url(../images/fpx-rakyat.svg);
+}
+
+.fpx-select-bank > select.rhb {
+    background-image:url(../images/fpx-rhb.svg);
+}
+
+.fpx-select-bank > select.sc {
+    background-image:url(../images/fpx-sc.svg);
+}
+
+.fpx-select-bank > select.uob {
+    background-image:url(../images/fpx-uob.svg);
+}
+
+.omise-offline {
+	color: #aaa;
+	font-size: 80%;
+	float: right;
+}
+
+.omise-offline > p{
+line-height: 2;
+}
+
+.offline {
+	padding: 0 0 0 75px !important;
+	margin-bottom:0px !important;
+}
+
+.fpx-terms-and-conditions-block {
+	margin-top: 10px;
+}
+
+
+.gpay-button {
+    background-origin: content-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 1px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+    height: 40px;
+    min-height: 40px;
+    padding: 11px 24px;
+    width: 100%;
+	margin-bottom: 1rem;
+}
