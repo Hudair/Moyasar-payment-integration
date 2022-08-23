@@ -1,0 +1,40 @@
+2022-08-23T13:06:58+00:00 CRITICAL Uncaught Error: Class 'MS_Gateway' not found in E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise\class-ms-gateway-omise.php:11
+Stack trace:
+#0 E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise.php(19): require_once()
+#1 E:\laragon\www\theline\wp-includes\class-wp-hook.php(307): omise_load_lib('')
+#2 E:\laragon\www\theline\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 E:\laragon\www\theline\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 E:\laragon\www\theline\wp-settings.php(576): do_action('after_setup_the...')
+#5 E:\laragon\www\theline\wp-config.php(103): require_once('E:\\laragon\\www\\...')
+#6 E:\laragon\www\theline\wp-load.php(50): require_once('E:\\laragon\\www\\...')
+#7 E:\laragon\www\theline\wp-admin\admin.php(34): require_once('E:\\laragon\\www\\...')
+#8 {main}
+  thrown in E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise\class-ms-gateway-omise.php on line 11
+
+2022-08-23T13:06:59+00:00 CRITICAL Uncaught Error: Class 'MS_Gateway' not found in E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise\class-ms-gateway-omise.php:11
+Stack trace:
+#0 E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise.php(19): require_once()
+#1 E:\laragon\www\theline\wp-includes\class-wp-hook.php(307): omise_load_lib('')
+#2 E:\laragon\www\theline\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 E:\laragon\www\theline\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 E:\laragon\www\theline\wp-settings.php(576): do_action('after_setup_the...')
+#5 E:\laragon\www\theline\wp-config.php(103): require_once('E:\\laragon\\www\\...')
+#6 E:\laragon\www\theline\wp-load.php(50): require_once('E:\\laragon\\www\\...')
+#7 E:\laragon\www\theline\wp-admin\admin-ajax.php(22): require_once('E:\\laragon\\www\\...')
+#8 {main}
+  thrown in E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise\class-ms-gateway-omise.php on line 11
+
+2022-08-23T13:07:02+00:00 CRITICAL Uncaught Error: Class 'MS_Gateway' not found in E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise\class-ms-gateway-omise.php:11
+Stack trace:
+#0 E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise.php(19): require_once()
+#1 E:\laragon\www\theline\wp-includes\class-wp-hook.php(307): omise_load_lib('')
+#2 E:\laragon\www\theline\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 E:\laragon\www\theline\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 E:\laragon\www\theline\wp-settings.php(576): do_action('after_setup_the...')
+#5 E:\laragon\www\theline\wp-config.php(103): require_once('E:\\laragon\\www\\...')
+#6 E:\laragon\www\theline\wp-load.php(50): require_once('E:\\laragon\\www\\...')
+#7 E:\laragon\www\theline\wp-admin\admin.php(34): require_once('E:\\laragon\\www\\...')
+#8 E:\laragon\www\theline\wp-admin\plugins.php(10): require_once('E:\\laragon\\www\\...')
+#9 {main}
+  thrown in E:\laragon\www\theline\wp-content\plugins\omise-df7ecdc1c4f1ccfe0a9efed66faab79570391f5e\omise\class-ms-gateway-omise.php on line 11
+
